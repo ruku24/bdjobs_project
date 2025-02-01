@@ -56,6 +56,7 @@ h1,h2,h3.h4,h5,h6{
 /* quicklink_section */
 .quicklink_section{
     background: #29568d;
+    border-radius: 3px;
 }
 .quicklink_section h3{
     font-size: 22px;
@@ -79,7 +80,7 @@ h1,h2,h3.h4,h5,h6{
 .quicklink_section ul li::before{
     content: "\f101";
     position: absolute;
-    font: fontawesome;
+   font-family: fontawesome;
     color: #fff;
     left: -23px;
 
