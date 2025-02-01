@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", serif;
+    max-width: 100%;
+}
+ol, ul, li{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3.h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+.top_header{
+    background: #37474f;
+      padding: 11px 0px;
+}
+.top_bottom_section{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.top_menu ul li{
+    list-style: none;
+    /* display: inline-block; */
+    padding: 0px 10px;
+}
+
+.top_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.top_social_icon a{
+    padding: 0px 10px;
+    color: #b8b9b9;
+   
+}
+
+.logo a img{
+    max-width: 200px;
+    height: 50px;
+
+}
+
+.menu ul li a{
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* quicklink_section */
+.quicklink_section{
+    background: #29568d;
+}
+.quicklink_section h3{
+    font-size: 22px;
+}
+
+.quicklink_section ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.quicklink_section ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.quicklink_section ul li {
+    position: relative;
+}
+
+.quicklink_section ul li::before{
+    content: "\f101";
+    position: absolute;
+    font: fontawesome;
+    color: #fff;
+    left: -23px;
+
+}
